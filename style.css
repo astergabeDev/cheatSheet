@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'SF Pro Display', 'Verdana', serif;
+}
+h1{
+    text-align: center;
+    margin: 10px auto;
+}
+h2{
+    color: rebeccapurple;
+    text-align: center;
+    margin: 20px auto;
+}
+table{
+    width: 650px;
+    margin: 0 auto;
+    border: 2px solid mediumpurple;
+    text-align: start;
+}
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    background-color: plum;
+}
+td{
+    border-top: 1px solid darkorchid;
+}
+tr .tag{
+    font-size: 12px;
+    display: inline;
+    background-color: beige;
+    text-align: start;
+}
+.code{
+    font-family: monospace;
+}
+
